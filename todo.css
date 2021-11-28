@@ -1,0 +1,244 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    }
+    body{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    background-color: steelblue;
+    }
+
+    form{
+    margin-left: 0rem;
+    }
+    input{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    }
+
+    #add{
+    width: 20%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    }
+    .add{
+        text-align: center;
+    }
+    .text{
+    text-align: center;
+    font-family: monospace;
+    }
+    .title{
+        color:#fff;
+        text-align: center;
+    }
+    .header_wrapper{
+        background-color: #111;
+    }
+
+    .container{
+    background-color: steelblue;
+    }
+    .list-group-item{
+    margin: 0px;
+    margin-top: 10px;
+    color: #111;
+    }
+
+
+
+
+
+/*モバイル対応*/
+@media screen and (max-width: 599px){
+    html{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    }
+    body{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    background-color: steelblue;
+    }
+
+    form{
+    margin-left: 0rem;
+    }
+    input{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    }
+
+    #add{
+    width: 20%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    }
+    .add{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .text{
+    text-align: center;
+    font-family: monospace;
+    text-decoration: underline;
+    }
+    .title{
+        color:#fff;
+        text-align: center;
+    }
+    .header_wrapper{
+        background-color: #111;
+    }
+
+    .container{
+    background-color: steelblue;
+    }
+    .list-group-item{
+    margin: 0px;
+    margin-top: 10px;
+    color: #111;
+    }
+    .list-group-item:last-child{
+        font-size: 15px;
+        }
+    
+}
+
+
+
+
+
+/*タブレット対応*/
+@media screen and (min-width: 600px){
+    html{
+        height: 100%;
+        width: 100%;
+        background-color: #111;
+        }
+        body{
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        background-color: steelblue;
+        }
+    
+        form{
+        margin-left: 0rem;
+        }
+        input{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 20px;
+        }
+    
+        #add{
+        width: 20%;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        }
+        .add{
+            text-align: center;
+            margin-top: 5px;
+        }
+        .text{
+        text-align: center;
+        font-family: monospace;
+        text-decoration: underline;
+        font-size: 18px;
+        }
+        .cation{
+            font-size: 20px;
+        }
+        .title{
+            color:#fff;
+            text-align: center;
+        }
+        .header_wrapper{
+            background-color: #111;
+        }
+    
+        .container{
+        background-color: steelblue;
+        }
+        .list-group-item{
+        margin: 0px;
+        margin-top: 10px;
+        color: #111;
+        }
+}
+
+
+
+
+
+/*PC対応*/
+@media screen and (min-width: 1025px){
+    html{
+        height: 100%;
+        width: 100%;
+        background-color: #111;
+        }
+        body{
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        background-color: steelblue;
+        }
+    
+        form{
+        margin-left: 0rem;
+        }
+        input{
+        width: 100%;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 25px;
+        }
+    
+        #add{
+        width: 10%;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        }
+        .add{
+            text-align: center;
+            margin-top: 5px;
+        }
+        .text{
+        text-align: center;
+        font-family: monospace;
+        text-decoration: underline;
+        font-size: 25px;
+        }
+        .cation{
+            font-size: 20px;
+        }
+        .title{
+            color:#fff;
+            text-align: center;
+        }
+        .header_wrapper{
+            background-color: #111;
+        }
+    
+        .container{
+        background-color: steelblue;
+        }
+        .list-group-item{
+        margin: 0px;
+        margin-top: 10px;
+        color: #111;
+        }
+        .list-group-item:last-child{
+            font-size: 25px;
+            }
+        
+}
