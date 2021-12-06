@@ -19,8 +19,10 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!--Bootstrap CSSの読み込み-->
+        <link rel="stylesheet" href="./bootstrap.css" media="screen">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="todo.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <title>ToDoアプリ</title>
     </head>
 
@@ -55,7 +57,7 @@
                 <div class="add"><input type="submit" value="追加" id="add"></div><!--追加ボタン-->
             </form>
             <div class="caution">
-              <div class="text">※タスクは長押しで削除できます。</div>
+              <div class="text">※タスクはスワイプで削除できます。</div>
             </div>
 
           </div>
@@ -63,8 +65,7 @@
       </main>
 
 
-      <!--Javascriptの読み込み-->
-      <script src="todo.js"></script>
-
+        <!--Javascriptの読み込み-->
+        <script src="todo_n.js"></script>
     </body>
 </html>
